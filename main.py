@@ -106,7 +106,7 @@ class GoldenEye(object):
 
     def exit(self):
         self.stats()
-        print "Shutting down GoldenEye"
+        print ("Shutting down GoldenEye")
 
     def __del__(self):
         self.exit()
@@ -114,7 +114,7 @@ class GoldenEye(object):
     def printHeader(self):
 
         # Taunt!
-        print "GoldenEye firing!"
+        print ("GoldenEye firing!")
 
     # Do the fun!
     def fire(self):
